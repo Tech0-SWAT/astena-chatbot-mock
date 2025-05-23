@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Law Lang="ja" Era="Showa" Year="40" Num="015" PromulgateMonth="03" PromulgateDay="31" LawType="MinisterialOrdinance"><LawNum>昭和四十年大蔵省令第十五号</LawNum><LawBody><LawTitle Kana="げんかしょうきゃくしさんのたいようねんすうとうにかんするしょうれい" Abbrev="耐用年数省令" AbbrevKana="た">減価償却資産の耐用年数等に関する省令</LawTitle>
+    <AppdxTable>
+      <AppdxTableTitle >別表第一</AppdxTableTitle>
+      <RelatedArticleNum>　機械及び装置以外の有形減価償却資産の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >構造又は用途</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >細目</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >工具</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >測定工具及び検査工具（電気又は電子を利用するものを含む。）</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >治具及び取付工具</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ロール</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >金属圧延用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >なつ染ロール、粉砕ロール、混練ロールその他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >型（型<Ruby>枠<Rt>わく</Rt></Ruby>を含む。）、鍛圧工具及び打抜工具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >プレスその他の金属加工用金型、合成樹脂、ゴム又はガラス成型用金型及び鋳造用型</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >切削工具</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >金属製柱及びカッペ</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >活字及び活字に常用される金属</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >購入活字（活字の形状のまま反復使用するものに限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >自製活字及び活字に常用される金属</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >前掲のもの以外のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >白金ノズル</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >前掲の区分によらないもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >白金ノズル</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >器具及び備品</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１　家具、電気機器、ガス機器及び家庭用品（他の項に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >事務机、事務いす及びキャビネット</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >応接セット</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >接客業用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ベッド</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >児童用机及びいす</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >陳列だな及び陳列ケース</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >冷凍機付又は冷蔵機付のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の家具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >接客業用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ラジオ、テレビジョン、テープレコーダーその他の音響機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >冷房用又は暖房用機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >電気冷蔵庫、電気洗濯機その他これらに類する電気又はガス機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >氷冷蔵庫及び冷蔵ストッカー（電気式のものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >カーテン、座ぶとん、寝具、丹前その他これらに類する繊維製品</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >じゆうたんその他の床用敷物</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >小売業用、接客業用、放送用、レコード吹込用又は劇場用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >室内装飾品</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >食事又はちゆう房用品</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >陶磁器製又はガラス製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >２　事務機器及び通信機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >謄写機器及びタイプライター</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >孔版印刷又は印書業用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >電子計算機</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >パーソナルコンピュータ（サーバー用のものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >複写機、計算機（電子計算機を除く。）、金銭登録機、タイムレコーダーその他これらに類するもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の事務機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >テレタイプライター及びファクシミリ</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >インターホーン及び放送用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >電話設備その他の通信機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >デジタル構内交換設備及びデジタルボタン電話設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >３　時計、試験機器及び測定機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >時計</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >度量衡器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >試験又は測定機器</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >４　光学機器及び写真製作機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >オペラグラス</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >カメラ、映画撮影機、映写機及び望遠鏡</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >引伸機、焼付機、乾燥機、顕微鏡その他の機器</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >５　看板及び広告器具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >看板、ネオンサイン及び気球</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >マネキン人形及び模型</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >６　容器及び金庫</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ボンベ</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >溶接製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >鍛造製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >塩素用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ドラムかん、コンテナーその他の容器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >大型コンテナー（長さが六メートル以上のものに限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >金庫</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >手さげ金庫</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >７　理容又は美容機器</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >８　医療機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >消毒殺菌用機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >手術機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >血液透析又は血しよう交換用機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ハバードタンクその他の作動部分を有する機能回復訓練機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >調剤機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >歯科診療用ユニット</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >光学検査機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ファイバースコープ</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+              <Sentence Num="2" >レントゲンその他の電子装置を使用する機器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >移動式のもの、救急医療用のもの及び自動血液分析器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >陶磁器製又はガラス製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >９　娯楽又はスポーツ器具及び興行又は演劇用具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >たまつき用具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >パチンコ器、ビンゴ器その他これらに類する球戯用具及び射的用具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ご、しようぎ、まあじやん、その他の遊戯具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >スポーツ具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >劇場用観客いす</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >どんちよう及び幕</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >衣しよう、かつら、小道具及び大道具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１０　生物</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >植物</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >貸付業用のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >動物</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >魚類</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >鳥類</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid" rowspan="3">
+              <Sentence Num="1" >１１　前掲のもの以外のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >映画フィルム（スライドを含む。）、磁気テープ及びレコード</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >シート及びロープ</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >きのこ栽培用ほだ木</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >漁具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >葬儀用具</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >楽器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >自動販売機（手動のものを含む。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >無人駐車管理装置</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >焼却炉</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１２　前掲する資産のうち、当該資産について定められている前掲の耐用年数によるもの以外のもの及び前掲の区分によらないもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>
+    
+  </LawBody>
+</Law>

@@ -1,0 +1,228 @@
+ <AppdxTable>
+      <AppdxTableTitle >別表第三</AppdxTableTitle>
+      <RelatedArticleNum>　無形減価償却資産の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >細目</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >漁業権</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >ダム使用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >水利権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >特許権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >実用新案権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >意匠権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >商標権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ソフトウエア</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >複写して販売するための原本</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >育成者権</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >種苗法（平成十年法律第八十三号）第四条第二項に規定する品種</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >営業権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >専用側線利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >鉄道軌道連絡通行施設利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >電気ガス供給施設利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >水道施設利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >工業用水道施設利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >電気通信施設利用権</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>
