@@ -2,3 +2,12 @@ streamlit
 azure-ai-documentintelligence
 azure-core
 python-dotenv
+
+## RAG
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+pypdf
+unstructured
+unstructured[local-inference]
