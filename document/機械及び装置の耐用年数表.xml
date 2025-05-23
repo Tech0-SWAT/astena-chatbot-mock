@@ -1,0 +1,1682 @@
+ <AppdxTable>
+      <AppdxTableTitle >別表第二</AppdxTableTitle>
+      <RelatedArticleNum>　機械及び装置の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >番号</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >設備の種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >細目</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >１</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >食料品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >飲料、たばこ又は飼料製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >３</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >繊維工業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >炭素繊維製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >黒鉛化炉</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >木材又は木製品（家具を除く。）製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >５</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >家具又は装備品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >６</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >パルプ、紙又は紙加工品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >７</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >印刷業又は印刷関連業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >デジタル印刷システム設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >製本業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >新聞業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >モノタイプ、写真又は通信設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >８</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >化学工業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >臭素、よう素又は塩素、臭素若しくはよう素化合物製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >塩化りん製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >活性炭製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ゼラチン又はにかわ製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >半導体用フォトレジスト製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >フラットパネル用カラーフィルター、偏光板又は偏光板用フィルム製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >９</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >石油製品又は石炭製品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１０</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >プラスチック製品製造業用設備（他の号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１１</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >ゴム製品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１２</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >なめし革、なめし革製品又は毛皮製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１３</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >窯業又は土石製品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１４</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >鉄鋼業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >表面処理鋼材若しくは鉄粉製造業又は鉄スクラップ加工処理業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >純鉄、原鉄、ベースメタル、フェロアロイ、鉄素形材又は鋳鉄管製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１５</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >非鉄金属製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >核燃料物質加工設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１６</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >金属製品製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >金属被覆及び彫刻業又は打はく及び金属製ネームプレート製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１７</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >はん用機械器具（はん用性を有するもので、他の器具及び備品並びに機械及び装置に組み込み、又は取り付けることによりその用に供されるものをいう。）製造業用設備（第二〇号及び第二二号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >１８</Sentence>
+            </TableColumn>
+            <TableColumn  rowspan="2">
+              <Sentence Num="1" >生産用機械器具（物の生産の用に供されるものをいう。）製造業用設備（次号及び第二一号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >金属加工機械製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >１９</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >業務用機械器具（業務用又はサービスの生産の用に供されるもの（これらのものであつて物の生産の用に供されるものを含む。）をいう。）製造業用設備（第一七号、第二一号及び第二三号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >２０</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >電子部品、デバイス又は電子回路製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >光ディスク（追記型又は書換え型のものに限る。）製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >プリント配線基板製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >フラットパネルディスプレイ、半導体集積回路又は半導体素子製造設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２１</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >電気機械器具製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２２</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >情報通信機械器具製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２３</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >輸送用機械器具製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２４</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >その他の製造業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２５</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >農業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２６</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >林業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２７</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >漁業用設備（次号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >２８</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >水産養殖業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >２９</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >鉱業、採石業又は砂利採取業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >石油又は天然ガス鉱業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >坑井設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >掘さく設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３０</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >総合工事業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >３１</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >電気業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >電気業用水力発電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の水力発電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >汽力発電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >内燃力又はガスタービン発電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >送電又は電気業用変電若しくは配電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >需要者用計器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >柱上変圧器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >鉄道又は軌道業用変電設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >３２</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ガス業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >製造用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >供給用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >鋳鉄製導管</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >二二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >鋳鉄製導管以外の導管</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >需要者用計量器</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３３</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >熱供給業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３４</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >水道業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３５</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >通信業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３６</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >放送業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３７</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >映像、音声又は文字情報制作業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >３８</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >鉄道業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >自動改札装置</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >３９</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >道路貨物運送業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４０</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >倉庫業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４１</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >運輸に附帯するサービス業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４２</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >飲食料品卸売業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >４３</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >建築材料、鉱物又は金属材料等卸売業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >石油又は液化石油ガス卸売用設備（貯そうを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４４</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >飲食料品小売業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >４５</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >その他の小売業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ガソリン又は液化石油ガススタンド設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >４６</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >技術サービス業用設備（他の号に掲げるものを除く。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >計量証明業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４７</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >宿泊業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４８</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >飲食店業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >４９</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >洗濯業、理容業、美容業又は浴場業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >５０</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >その他の生活関連サービス業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >５１</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >娯楽業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >映画館又は劇場用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >遊園地用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ボウリング場用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >５２</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >教育業（学校教育業を除く。）又は学習支援業用設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >教習用運転シミュレータ設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >５３</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >自動車整備業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >５４</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >その他のサービス業用設備</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >５５</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid" rowspan="2">
+              <Sentence Num="1" >前掲の機械及び装置以外のもの並びに前掲の区分によらないもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >機械式駐車設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >ブルドーザー、パワーショベルその他の自走式作業用機械設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >その他の設備</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >主として金属製のもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >一七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" />
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>

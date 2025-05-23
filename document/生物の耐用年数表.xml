@@ -1,0 +1,514 @@
+<AppdxTable>
+      <AppdxTableTitle >別表第四</AppdxTableTitle>
+      <RelatedArticleNum>　生物の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >細目</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >牛</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >繁殖用（家畜改良増殖法（昭和二十五年法律第二百九号）に基づく種付証明書、授精証明書、体内受精卵移植証明書又は体外受精卵移植証明書のあるものに限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >役肉用牛</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >乳用牛</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >種付用（家畜改良増殖法に基づく種畜証明書の交付を受けた種おす牛に限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他用</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >馬</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >繁殖用（家畜改良増殖法に基づく種付証明書又は授精証明書のあるものに限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >種付用（家畜改良増殖法に基づく種畜証明書の交付を受けた種おす馬に限る。）</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >競走用</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他用</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >豚</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >綿羊及びやぎ</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >種付用</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他用</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >かんきつ樹</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >温州みかん</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >三〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >りんご樹</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >わい化りんご</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >二九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >ぶどう樹</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >温室ぶどう</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >なし樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >桃樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >桜桃樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >びわ樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >くり樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >梅樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >かき樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >あんず樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >すもも樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一六</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >いちじく樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >キウイフルーツ樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二二</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >ブルーベリー樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >パイナップル</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >茶樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >オリーブ樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >つばき樹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >桑樹</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >立て通し</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >一八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >根刈り、中刈り、高刈り</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >こりやなぎ</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >みつまた</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >こうぞ</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >もう宗竹</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >二〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >アスパラガス</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一一</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >ラミー</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >まおらん</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >一〇</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >ホップ</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >九</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>

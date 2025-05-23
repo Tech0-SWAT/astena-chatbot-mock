@@ -1,0 +1,40 @@
+    <AppdxTable>
+      <AppdxTableTitle >別表第五</AppdxTableTitle>
+      <RelatedArticleNum>　公害防止用減価償却資産の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >構築物</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >一八</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >機械及び装置</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>

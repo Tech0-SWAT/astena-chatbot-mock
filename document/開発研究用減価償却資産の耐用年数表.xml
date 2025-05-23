@@ -1,0 +1,112 @@
+<AppdxTable>
+      <AppdxTableTitle >別表第六</AppdxTableTitle>
+      <RelatedArticleNum>　開発研究用減価償却資産の耐用年数表</RelatedArticleNum>
+      <TableStruct>
+        <Table >
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >種類</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >細目</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >耐用年数</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >年</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >建物及び建物附属設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >建物の全部又は一部を低温室、恒温室、無響室、電磁しやへい室、放射性同位元素取扱室その他の特殊室にするために特に施設した内部造作又は建物附属設備</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  rowspan="2">
+              <Sentence Num="1" >構築物</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >風どう、試験水そう及び防壁</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >五</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >ガス又は工業薬品貯そう、アンテナ、鉄塔及び特殊用途に使用するもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >工具</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >器具及び備品</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >試験又は測定機器、計算機器、撮影機及び顕微鏡</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn  rowspan="2">
+              <Sentence Num="1" >機械及び装置</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" ><Ruby>汎<Rt>はん</Rt></Ruby>用ポンプ、<Ruby>汎<Rt>はん</Rt></Ruby>用モーター、<Ruby>汎<Rt>はん</Rt></Ruby>用金属工作機械、<Ruby>汎<Rt>はん</Rt></Ruby>用金属加工機械その他これらに類するもの</Sentence>
+            </TableColumn>
+            <TableColumn  BorderTop="solid">
+              <Sentence Num="1" >七</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >その他のもの</Sentence>
+            </TableColumn>
+            <TableColumn BorderTop="none">
+              <Sentence Num="1" >四</Sentence>
+            </TableColumn>
+          </TableRow>
+          <TableRow>
+            <TableColumn >
+              <Sentence Num="1" >ソフトウエア</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >　</Sentence>
+            </TableColumn>
+            <TableColumn >
+              <Sentence Num="1" >三</Sentence>
+            </TableColumn>
+          </TableRow>
+        </Table>
+      </TableStruct>
+    </AppdxTable>
