@@ -2,11 +2,13 @@ streamlit
 azure-ai-documentintelligence
 azure-core
 python-dotenv
+tiktoken
 
 ## RAG
 langchain
 langchain-community
 sentence-transformers
+langchain-openai
 faiss-cpu
 pypdf
 unstructured
