@@ -1,12 +1,12 @@
 import os
-from langchain_community.document_loaders import UnstructuredFileLoader
+from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores.faiss import FAISS
 
 def build_faiss_index(
-    filename: str = "ey-japan-info-sensor-2023-06-03.pdf",
-    data_dir: str = "document",
+    # filename: str = "ey-japan-info-sensor-2023-06-03.pdf",
+    data_dir: str = "document/docs_for_index",
     storage_dir: str = "storage",
     model_name: str = "intfloat/multilingual-e5-large",
     chunk_size: int = 1000,
@@ -16,7 +16,6 @@ def build_faiss_index(
     指定されたPDFファイルを読み込み、FAISSインデックスを作成・保存して返す関数
 
     Parameters:
-    - filename: str : 処理対象のPDFファイル名（例: "sample.pdf"）
     - data_dir: str : ファイル格納ディレクトリ（デフォルト: "document"）
     - storage_dir: str : インデックス保存先ディレクトリ（デフォルト: "storage"）
     - model_name: str : 埋め込みモデル名（デフォルト: multilingual-e5-large）
@@ -28,14 +27,14 @@ def build_faiss_index(
     """
     # パス設定
     base_dir = os.path.abspath("")
-    data_path = os.path.join(base_dir, data_dir, filename)
+    data_path = os.path.join(base_dir, data_dir)
     index_path = os.path.join(base_dir, storage_dir)
 
     print(f"ファイル読み込み: {data_path}")
     os.makedirs(index_path, exist_ok=True)
 
     # 1. ドキュメント読み込み
-    loader = UnstructuredFileLoader(data_path)
+    loader = DirectoryLoader(data_path, loader_cls=UnstructuredFileLoader)
     documents = loader.load()
     print(f"ドキュメント数: {len(documents)}")
 
@@ -57,3 +56,14 @@ def build_faiss_index(
     print(f"インデックス保存済み: {index_path}")
 
     return index
+
+
+import sys
+import traceback
+if __name__ == "__main__":
+    try:
+        build_faiss_index()
+        print("\n=== 完了 ===")
+    except Exception as e:
+        print("\n❌ エラーが発生しました:")
+        traceback.print_exc(file=sys.stdout)
