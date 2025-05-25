@@ -1,6 +1,5 @@
 import os
-from collect_law_texts_list import collect_law_texts_list
-
+from collect_law_texts import collect_law_texts_list
 import openai
 from dotenv import load_dotenv
 
