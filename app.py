@@ -24,7 +24,6 @@ if docs_files:
 else:
     st.sidebar.write("ファイルがありません。")
 
-
 # --- インデックス再作成用PDFアップローダ（サイドバーへ移動） ---
 st.sidebar.subheader("インデックス再作成用PDFアップロード")
 uploaded_index_file = st.sidebar.file_uploader("インデックス用PDFをアップロード（docs_for_indexに保存）", type=["pdf"], key="index_pdf")
