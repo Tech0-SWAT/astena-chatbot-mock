@@ -3,7 +3,8 @@ import os
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
-from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
+# from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings # 廃止予定
+from langchain_openai import AzureOpenAIEmbeddings  # ← import 元を変更
 from langchain_community.vectorstores.faiss import FAISS
 import streamlit as st
 
@@ -50,20 +51,14 @@ def build_faiss_index(
     print(f"チャンク数: {len(split_texts)}")
 
     # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
-    # embedding_model = AzureOpenAIEmbeddings(
-        # chunk_size=2048,
-        #azure_deployment="text-embedding-3-large-astena"
-    #)
-    #print("埋め込みモデル読み込み: Azure OpenAI Embedding")
-
-    # 3. Azure OpenAI埋め込みモデル（環境変数はst.secretsから）
     embedding_model = AzureOpenAIEmbeddings(
-        chunk_size=2048,
-        azure_deployment=os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"], 
-        azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],                
-        api_key=os.environ["AZURE_OPENAI_API_KEY"]                         
+        azure_deployment = os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"],
+        azure_endpoint   = os.environ["AZURE_OPENAI_ENDPOINT"],
+        openai_api_key   = os.environ["AZURE_OPENAI_API_KEY"], 
+        openai_api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-15-preview"),
+        chunk_size = 2048,
     )
-    print("埋め込みモデル読み込み: Azure OpenAI Embedding")
+    print("埋め込みモデル読み込み OK")
 
     # 4. FAISSインデックス作成
     index = FAISS.from_documents(documents=split_texts, embedding=embedding_model)
