@@ -5,6 +5,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
 from langchain_community.vectorstores.faiss import FAISS
+import streamlit as st
 
 def build_faiss_index(
     # filename: str = "ey-japan-info-sensor-2023-06-03.pdf",
@@ -28,7 +29,7 @@ def build_faiss_index(
     - FAISS : 作成されたFAISSインデックスオブジェクト
     """
     # .env読み込み
-    load_dotenv()
+    # load_dotenv()
 
     # パス設定
     base_dir = os.path.abspath("")
@@ -49,9 +50,18 @@ def build_faiss_index(
     print(f"チャンク数: {len(split_texts)}")
 
     # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
+    # embedding_model = AzureOpenAIEmbeddings(
+        # chunk_size=2048,
+        #azure_deployment="text-embedding-3-large-astena"
+    #)
+    #print("埋め込みモデル読み込み: Azure OpenAI Embedding")
+
+    # 3. Azure OpenAI埋め込みモデル（環境変数はst.secretsから）
     embedding_model = AzureOpenAIEmbeddings(
         chunk_size=2048,
-        azure_deployment="text-embedding-3-large-astena"
+        azure_deployment=st.secrets["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"], 
+        azure_endpoint=st.secrets["AZURE_OPENAI_ENDPOINT"],                
+        api_key=st.secrets["AZURE_OPENAI_API_KEY"]                         
     )
     print("埋め込みモデル読み込み: Azure OpenAI Embedding")
 
