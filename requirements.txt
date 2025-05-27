@@ -1,5 +1,5 @@
 streamlit
-python-dotenv
+python-dotenv==1.0.1
 azure-ai-documentintelligence
 azure-core
 tiktoken
