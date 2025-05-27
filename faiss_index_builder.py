@@ -59,9 +59,9 @@ def build_faiss_index(
     # 3. Azure OpenAI埋め込みモデル（環境変数はst.secretsから）
     embedding_model = AzureOpenAIEmbeddings(
         chunk_size=2048,
-        azure_deployment=st.secrets["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"], 
-        azure_endpoint=st.secrets["AZURE_OPENAI_ENDPOINT"],                
-        api_key=st.secrets["AZURE_OPENAI_API_KEY"]                         
+        azure_deployment=os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"], 
+        azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],                
+        api_key=os.environ["AZURE_OPENAI_API_KEY"]                         
     )
     print("埋め込みモデル読み込み: Azure OpenAI Embedding")
 
