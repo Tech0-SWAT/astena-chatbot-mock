@@ -15,4 +15,3 @@ unstructured
 unstructured[local-inference]
 openai
 opencv-python-headless==4.11.0.86
-opencv-python==4.11.0.86 --hash=sha256:0  ; sys_platform=="avoid"
