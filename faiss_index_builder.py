@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
