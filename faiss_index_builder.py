@@ -1,6 +1,7 @@
 import os
 # from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 # from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings # 廃止予定
