@@ -42,18 +42,19 @@ def build_faiss_index(
     os.makedirs(index_path, exist_ok=True)
 
     # 1. ドキュメント読み込み
-    documents = []
-    for file in os.listdir(data_path):
-        if file.lower().endswith(".pdf"):
-            pdf_path = os.path.join(data_path, file)
-            loader = PyPDFLoader(pdf_path)
-            documents.extend(loader.load())
+    loader = DirectoryLoader(data_path, loader_cls=UnstructuredFileLoader)
+    documents = loader.load()
     print(f"ドキュメント数: {len(documents)}")
 
     # 2. テキスト分割
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     split_texts = splitter.split_documents(documents)
     print(f"チャンク数: {len(split_texts)}")
+
+    for i, doc in enumerate(split_texts[:5], 1):
+        print(f"\n----- チャンク {i} -----")
+        # print(doc.page_content)        # 全文
+        print(doc.page_content[:300])  # 300 文字だけ見たい場合
 
     # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
     embedding_model = AzureOpenAIEmbeddings(
