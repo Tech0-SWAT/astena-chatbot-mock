@@ -1,10 +1,13 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
-from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
+# from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings # 廃止予定
+from langchain_openai import AzureOpenAIEmbeddings  # ← import 元を変更
 from langchain_community.vectorstores.faiss import FAISS
+import streamlit as st
 
 def build_faiss_index(
     # filename: str = "ey-japan-info-sensor-2023-06-03.pdf",
@@ -28,7 +31,7 @@ def build_faiss_index(
     - FAISS : 作成されたFAISSインデックスオブジェクト
     """
     # .env読み込み
-    load_dotenv()
+    # load_dotenv()
 
     # パス設定
     base_dir = os.path.abspath("")
@@ -39,8 +42,12 @@ def build_faiss_index(
     os.makedirs(index_path, exist_ok=True)
 
     # 1. ドキュメント読み込み
-    loader = DirectoryLoader(data_path, loader_cls=UnstructuredFileLoader)
-    documents = loader.load()
+    documents = []
+    for file in os.listdir(data_path):
+        if file.lower().endswith(".pdf"):
+            pdf_path = os.path.join(data_path, file)
+            loader = PyPDFLoader(pdf_path)
+            documents.extend(loader.load())
     print(f"ドキュメント数: {len(documents)}")
 
     # 2. テキスト分割
@@ -50,10 +57,12 @@ def build_faiss_index(
 
     # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
     embedding_model = AzureOpenAIEmbeddings(
-        chunk_size=2048,
-        azure_deployment="text-embedding-3-large-astena"
+        azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
+        azure_deployment=os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"],
+        api_key=os.environ["AZURE_OPENAI_API_KEY"],
+        chunk_size = 2048,
     )
-    print("埋め込みモデル読み込み: Azure OpenAI Embedding")
+    print("埋め込みモデル読み込み OK")
 
     # 4. FAISSインデックス作成
     index = FAISS.from_documents(documents=split_texts, embedding=embedding_model)
