@@ -1,16 +1,14 @@
 streamlit
+python-dotenv==1.0.1
 azure-ai-documentintelligence
 azure-core
-python-dotenv
 tiktoken
 
 ## RAG
 langchain
 langchain-community
-sentence-transformers
 langchain-openai
+sentence-transformers
 faiss-cpu
 pypdf
-unstructured
-unstructured[local-inference]
 openai

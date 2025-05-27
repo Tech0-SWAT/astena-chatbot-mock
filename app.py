@@ -34,13 +34,14 @@ if uploaded_index_file is not None:
     st.sidebar.success(f"{uploaded_index_file.name} を docs_for_index に保存しました。")
 
 # --- インデックス再作成ボタン（サイドバーへ移動） ---
-import subprocess
+import subprocess, sys
 st.sidebar.markdown("---")
 if st.sidebar.button("インデックス再作成"):
     with st.spinner("FAISSインデックスを再作成中..."):
         try:
             result = subprocess.run(
-                ["python", "faiss_index_builder.py"],
+                # sys.executable は「いま動いている仮想環境の Python 」
+                [sys.executable, "faiss_index_builder.py"],
                 capture_output=True, text=True, check=True
             )
             st.sidebar.success("インデックス再作成が完了しました。")
