@@ -7,11 +7,8 @@ tiktoken
 ## RAG
 langchain
 langchain-community
-sentence-transformers
 langchain-openai
+sentence-transformers
 faiss-cpu
 pypdf
-unstructured
-unstructured[local-inference]
 openai
-opencv-python-headless==4.11.0.86
