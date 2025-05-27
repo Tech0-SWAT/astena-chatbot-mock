@@ -56,10 +56,9 @@ def build_faiss_index(
 
     # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
     embedding_model = AzureOpenAIEmbeddings(
-        azure_deployment = os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"],
-        azure_endpoint   = os.environ["AZURE_OPENAI_ENDPOINT"],
-        openai_api_key   = os.environ["AZURE_OPENAI_API_KEY"], 
-        openai_api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-15-preview"),
+        azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
+        azure_deployment=os.environ["AZURE_OPENAI_EMBEDDING_DEPLOYMENT"],
+        api_key=os.environ["AZURE_OPENAI_API_KEY"],
         chunk_size = 2048,
     )
     print("埋め込みモデル読み込み OK")
