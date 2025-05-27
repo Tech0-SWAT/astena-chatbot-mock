@@ -1,7 +1,9 @@
 import os
+from dotenv import load_dotenv
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
 from langchain_community.vectorstores.faiss import FAISS
 
 def build_faiss_index(
@@ -25,6 +27,9 @@ def build_faiss_index(
     Returns:
     - FAISS : 作成されたFAISSインデックスオブジェクト
     """
+    # .env読み込み
+    load_dotenv()
+
     # パス設定
     base_dir = os.path.abspath("")
     data_path = os.path.join(base_dir, data_dir)
@@ -43,9 +48,12 @@ def build_faiss_index(
     split_texts = splitter.split_documents(documents)
     print(f"チャンク数: {len(split_texts)}")
 
-    # 3. 埋め込みモデル読み込み
-    embedding_model = HuggingFaceEmbeddings(model_name=model_name)
-    print(f"埋め込みモデル読み込み: {model_name}")
+    # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
+    embedding_model = AzureOpenAIEmbeddings(
+        chunk_size=2048,
+        azure_deployment="text-embedding-3-large-astena"
+    )
+    print("埋め込みモデル読み込み: Azure OpenAI Embedding")
 
     # 4. FAISSインデックス作成
     index = FAISS.from_documents(documents=split_texts, embedding=embedding_model)
