@@ -41,8 +41,12 @@ def build_faiss_index(
     os.makedirs(index_path, exist_ok=True)
 
     # 1. ドキュメント読み込み
-    loader = DirectoryLoader(data_path, loader_cls=UnstructuredFileLoader)
-    documents = loader.load()
+    documents = []
+    for file in os.listdir(data_path):
+        if file.lower().endswith(".pdf"):
+            pdf_path = os.path.join(data_path, file)
+            loader = PyPDFLoader(pdf_path)
+            documents.extend(loader.load())
     print(f"ドキュメント数: {len(documents)}")
 
     # 2. テキスト分割
