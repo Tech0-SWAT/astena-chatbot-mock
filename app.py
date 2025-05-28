@@ -104,7 +104,7 @@ if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
         error_message = "PDF解析中にエラーが発生しました。\n" + traceback.format_exc()
         st.error(error_message)
 if "extracted_items" in st.session_state:
-    st.subheader("📋 LLMによる品目・金額抽出結果")
+    st.subheader("LLMによる品目・金額抽出結果")
     st.markdown(st.session_state["extracted_items"])
 
 if "extracted_text" in st.session_state:
