@@ -10,7 +10,7 @@ from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
 # .env 読み込み
 load_dotenv()
 
-def generate_response(user_chat: str, old_chat: str = "", document_text :str = "") -> str:
+def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> str:
     """
     ユーザーからの質問文を受け取り、法令・PDF情報・耐用年数データをもとに
     会計的な観点から勘定科目と耐用年数を出力する回答を返す
@@ -68,7 +68,16 @@ def generate_response(user_chat: str, old_chat: str = "", document_text :str = "
 
     prompt = f"""
         あなたは日本の会計に精通した経理アシスタントAIです。
-        以下の情報をもとに、ユーザーの質問に対して会計的な観点から適切な回答をしてください。
+
+        添付の証憑に関する固定資産を取得しました。会計基準および過去の当社の会計処理実績に整合するように、各品目ごとに適切な勘定科目と金額（税抜経理ベース）を提案してください。  
+        また、以下の点に注意してください：
+
+        - 当社は税抜経理方式を採用しており、仮払消費税の計上が必要です  
+        - 証憑の中には非課税・課税対象外取引が含まれている可能性があります  
+        - 各固定資産の法定耐用年数も併せて提示してください  
+        - 勘定科目、金額については根拠を明確に示してください  
+
+        以下の情報を参考にしてください：
 
         【情報】有形固定資産に関連する会計基準・実務資料の抜粋:
         {retrieved_context}
@@ -82,14 +91,22 @@ def generate_response(user_chat: str, old_chat: str = "", document_text :str = "
         【ユーザーの質問】
         {user_chat}
 
-        [質問対象]
+        【対象となる証憑テキスト】
         {document_text}
 
         {history_text}
 
         【出力形式】
-        ユーザーの質問に対する総合的な回答を端的に記述してください。
-        - 可能であれば、根拠となる法令や会計基準の抜粋を添えてください。
+        品目を抽出し各品目について以下の形式で出力してください：
+
+        品目名: （例: ノートPC）  
+        ・金額：150,000円  
+        ・勘定科目：備品  
+        ・法定耐用年数：4年  
+        ・根拠：〇〇会計基準第○条、法定耐用年数表より
+
+        - 不明な場合は「該当情報なし」と明記してください。
+        - 補足説明があれば端的に記載してください。
         """
 
     try:
@@ -118,6 +135,6 @@ def generate_response(user_chat: str, old_chat: str = "", document_text :str = "
 
 if __name__ == "__main__":
     user_input = input("質問を入力してください: ")
-    response = generate_response(user_input)
+    response = asset_judge(user_input)
     print("\n=== 回答 ===")
     print(response)

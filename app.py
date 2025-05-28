@@ -3,13 +3,17 @@ import os
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 from dotenv import load_dotenv
+from chat_response import generate_response
+from asset_judge import asset_judge
+from asset_extract_items import asset_extract_items
+
 
 # .envから環境変数を読み込む
 load_dotenv()
 AZURE_ENDPOINT = os.getenv("DOC_ENDPOINT")
 AZURE_KEY = os.getenv("DOC_API_KEY")
 
-st.title("経理チャットボット")
+st.title("固定資産判定アプリ")
 
 # --- docs_for_indexのファイル一覧表示 ---
 docs_dir = "document/docs_for_index"
@@ -51,13 +55,13 @@ if st.sidebar.button("インデックス再作成"):
             st.sidebar.text_area("エラーログ", e.stdout + "\n" + e.stderr, height=200)
 
 # --- 質問用PDFアップローダ ---
-st.subheader("質問用PDFアップロード")
-uploaded_qa_file = st.file_uploader("質問したい内容のPDFをアップロードしてください", type=["pdf"], key="qa_pdf")
+st.subheader("証憑PDFアップロード")
+uploaded_qa_file = st.file_uploader("固定資産判定を行いたい証憑のPDFをアップロードしてください", type=["pdf"], key="qa_pdf")
 
 # PDFアップロード時のみ解析し、セッションに保存
 if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
     try:
-        with st.spinner("Azureで解析中..."):
+        with st.spinner("PDFを解析中..."):
             # 一時ファイルとして保存
             with open("temp_upload.pdf", "wb") as f:
                 f.write(uploaded_qa_file.read())
@@ -88,8 +92,10 @@ if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
             st.session_state["extracted_text"] = extracted_text
             st.session_state["qa_file_name"] = uploaded_qa_file.name
 
-            st.subheader("抽出されたテキスト")
-            st.text_area("テキスト", extracted_text, height=400)
+            # LLM処理（自動実行）
+            with st.spinner("LLMで品目と金額を抽出中..."):
+                extracted_result = asset_extract_items(extracted_text)
+                st.session_state["extracted_items"] = extracted_result
 
             # 一時ファイル削除
             os.remove("temp_upload.pdf")
@@ -97,20 +103,31 @@ if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
         import traceback
         error_message = "PDF解析中にエラーが発生しました。\n" + traceback.format_exc()
         st.error(error_message)
-elif "extracted_text" in st.session_state:
-    st.subheader("抽出されたテキスト")
-    st.text_area("テキスト", st.session_state["extracted_text"], height=400)
+if "extracted_items" in st.session_state:
+    st.subheader("📋 LLMによる品目・金額抽出結果")
+    st.markdown(st.session_state["extracted_items"])
+
+if "extracted_text" in st.session_state:
+    if st.button("固定資産を判定する"):
+        with st.spinner("固定資産の情報を判定中．．．"):
+            rag_response = asset_judge(
+                user_chat="以下のテキストから品目ごとに金額、勘定科目、法定耐用年数、根拠を抽出してください。",
+                document_text = st.session_state["extracted_text"]
+            )
+            st.session_state["rag_response"] = rag_response
+
+if "rag_response" in st.session_state:
+    st.subheader("固定資産判定結果")
+    st.markdown(st.session_state["rag_response"])
 
 # --- チャットボット機能 ---
 st.markdown("---")
 st.header("チャットボット")
 
-from chat_response import generate_response
-
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-user_input = st.text_input("質問を入力してください", key="chat_input")
+user_input = st.text_input("不明点あれば質問を入力してください", key="chat_input")
 if st.button("送信"):
     if user_input:
         # 会話履歴（old_chat）をテキスト化
@@ -118,8 +135,8 @@ if st.button("送信"):
         for speaker, message in st.session_state.chat_history:
             prefix = "ユーザー: " if speaker == "ユーザー" else "ボット: "
             old_chat += f"{prefix}{message}\n"
-        # PDFテキスト（document_text）を取得
-        document_text = st.session_state.get("extracted_text", "")
+        # RAGの返答を取得
+        document_text = st.session_state.get("rag_response", "")
         # AI応答を生成
         with st.spinner("AIが応答を生成中..."):
             bot_reply = generate_response(user_input, old_chat=old_chat, document_text=document_text)
