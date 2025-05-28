@@ -12,3 +12,5 @@ sentence-transformers
 faiss-cpu
 pypdf
 openai
+unstructured[local-inference]==0.17.2
+opencv-python-headless==4.11.0.86
