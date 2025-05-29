@@ -23,7 +23,7 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
     """
 
     # === STEP 1: FAISSインデックスから類似コンテキスト取得 ===
-    # 3. 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
+    # 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
     embedding_model = AzureOpenAIEmbeddings(
         chunk_size=2048,
         azure_deployment="text-embedding-3-large-astena"
@@ -34,8 +34,13 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
         allow_dangerous_deserialization=True
     )
 
-    retrieved_docs = index.similarity_search(user_chat, k=2)
+    query_text = user_chat + "\n" + document_text
+    print("クエリの内容:")
+    print(query_text)
+    retrieved_docs = index.similarity_search(query_text, k=2)
     retrieved_context = "\n".join([doc.page_content for doc in retrieved_docs])
+    print("類似度の高いチャンク:")
+    print(retrieved_context)
 
     # === STEP 2: 法定耐用年数の情報抽出 ===
     law_list = collect_law_texts_list("document")
@@ -51,7 +56,36 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
     else:
         txt_content = "（法令テキストが見つかりませんでした）"
 
-    # === STEP 4: Azure OpenAIへ問い合わせ ===
+    # === STEP 4: 仕訳例を読込 ===
+    import pandas as pd
+    example_dir = "document/example_accounting_entry/"
+    os.makedirs(example_dir, exist_ok=True)
+
+    # エクセル読み込み
+    excel_files = [f for f in os.listdir(example_dir) if f.endswith(('.xlsx', '.xls'))]
+
+    dataframes = {}
+    for file in excel_files:
+        file_path = os.path.join(example_dir, file)
+        try:
+            df = pd.read_excel(file_path)
+            dataframes[file] = df
+            print(f"\n {file} の内容:")
+            print(df.head())
+        except Exception as e:
+            print(f"{file} の読み込み中にエラーが発生しました: {e}")
+   
+    # 複数Excelファイルの仕訳例を文字列化してまとめる
+    accounting_examples_text = ""
+    for file, df in dataframes.items():
+        accounting_examples_text += f"\n■ {file} の仕訳例:\n"
+        accounting_examples_text += df.to_string(index=False)
+        accounting_examples_text += "\n"
+    print("仕訳実績:")
+    print(accounting_examples_text)
+
+
+    # === STEP 5: Azure OpenAIへ問い合わせ ===
     api_key = os.environ.get("AZURE_OPENAI_API_KEY")
     azure_endpoint = os.environ.get("AZURE_OPENAI_ENDPOINT")
     deployment = os.environ.get("AZURE_OPENAI_DEPLOYMENT")
@@ -88,12 +122,16 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
         【情報】減価償却に関する法令（法令テキスト）:
         {txt_content}
 
+        【情報】仕訳例:
+        {accounting_examples_text}
+
         【ユーザーの質問】
         {user_chat}
 
         【対象となる証憑テキスト】
         {document_text}
 
+        【過去のチャット情報】
         {history_text}
 
         【出力形式】

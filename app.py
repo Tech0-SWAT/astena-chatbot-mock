@@ -24,7 +24,14 @@ docs_files = os.listdir(docs_dir)
 st.sidebar.subheader("docs_for_index内のファイル一覧")
 if docs_files:
     for f in docs_files:
-        st.sidebar.write(f"- {f}")
+        file_path = os.path.join(docs_dir, f)
+        col1, col2 = st.sidebar.columns([3, 1])
+        with col1:
+            st.write(f"- {f}")
+        with col2:
+            if st.button("削除", key=f"delete_index_{f}"):
+                os.remove(file_path)
+                st.experimental_rerun()
 else:
     st.sidebar.write("ファイルがありません。")
 
@@ -39,7 +46,6 @@ if uploaded_index_file is not None:
 
 # --- インデックス再作成ボタン（サイドバーへ移動） ---
 import subprocess, sys
-st.sidebar.markdown("---")
 if st.sidebar.button("インデックス再作成"):
     with st.spinner("FAISSインデックスを再作成中..."):
         try:
@@ -53,6 +59,33 @@ if st.sidebar.button("インデックス再作成"):
         except subprocess.CalledProcessError as e:
             st.sidebar.error("インデックス再作成中にエラーが発生しました。")
             st.sidebar.text_area("エラーログ", e.stdout + "\n" + e.stderr, height=200)
+
+st.sidebar.markdown("---")
+
+doc_uploaded_example_accounting_entry_dir = "document/example_accounting_entry"
+st.sidebar.subheader("仕訳データアップロード")
+uploaded_example_accounting_entry = st.sidebar.file_uploader("仕訳例を保存し学習する", type=["pdf","xlsx", "xls"], key="accounting_entry")
+if uploaded_example_accounting_entry is not None:
+    save_path = os.path.join(doc_uploaded_example_accounting_entry_dir, uploaded_example_accounting_entry.name)
+    with open(save_path, "wb") as f:
+        f.write(uploaded_example_accounting_entry.read())
+    st.sidebar.success(f"{uploaded_example_accounting_entry.name} を example_accounting_entry に保存しました。")
+
+st.sidebar.subheader("example_accounting_entry内のファイル一覧")
+docs_uploaded_example_accounting_entry_files = os.listdir(doc_uploaded_example_accounting_entry_dir)
+
+if docs_uploaded_example_accounting_entry_files:
+    for filename in docs_uploaded_example_accounting_entry_files:
+        file_path = os.path.join(doc_uploaded_example_accounting_entry_dir, filename)
+        col1, col2 = st.sidebar.columns([3, 1])
+        with col1:
+            st.write(f"- {filename}")
+        with col2:
+            if st.button("削除", key=f"delete_{filename}"):
+                os.remove(file_path)
+                st.experimental_rerun()  # 削除後にリロードして表示更新
+else:
+    st.sidebar.write("ファイルがありません。")
 
 # --- 質問用PDFアップローダ ---
 st.subheader("証憑PDFアップロード")
@@ -112,7 +145,7 @@ if "extracted_text" in st.session_state:
         with st.spinner("固定資産の情報を判定中．．．"):
             rag_response = asset_judge(
                 user_chat="以下のテキストから品目ごとに金額、勘定科目、法定耐用年数、根拠を抽出してください。",
-                document_text = st.session_state["extracted_text"]
+                document_text = st.session_state["extracted_items"]
             )
             st.session_state["rag_response"] = rag_response
 
