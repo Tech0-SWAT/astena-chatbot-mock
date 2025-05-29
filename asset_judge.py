@@ -21,7 +21,8 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
     Returns:
         str: 回答文
     """
-
+    
+        
     # === STEP 1: FAISSインデックスから類似コンテキスト取得 ===
     # 埋め込みモデル読み込み（Azure OpenAI埋め込みに変更）
     embedding_model = AzureOpenAIEmbeddings(
@@ -157,6 +158,7 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
             temperature=0.2,
             max_tokens=2048
         )
+        print(response)
         return response.choices[0].message.content
     except Exception as e:
         # 詳細なエラー内容を返す
@@ -170,6 +172,8 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
         if hasattr(e, "response") and hasattr(e.response, "text"):
             error_message += f"APIレスポンス: {e.response.text}\n"
         return error_message
+    
+
 
 if __name__ == "__main__":
     user_input = input("質問を入力してください: ")
