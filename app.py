@@ -4,8 +4,9 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 from dotenv import load_dotenv
 from chat_response import generate_response
-from asset_judge import asset_judge
+from asset_judge import asset_judge, parse_llm_output_to_dataframe
 from asset_extract_items import asset_extract_items
+from make_df import parse_extracted_items_to_dataframe, parse_llm_output_to_dataframe
 
 
 # .envから環境変数を読み込む
@@ -13,6 +14,7 @@ load_dotenv()
 AZURE_ENDPOINT = os.getenv("DOC_ENDPOINT")
 AZURE_KEY = os.getenv("DOC_API_KEY")
 
+st.set_page_config(page_title="固定資産判定アプリ", layout="wide")
 st.title("固定資産判定アプリ")
 
 # --- docs_for_indexのファイル一覧表示 ---
@@ -138,7 +140,14 @@ if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
         st.error(error_message)
 if "extracted_items" in st.session_state:
     st.subheader("LLMによる品目・金額抽出結果")
-    st.markdown(st.session_state["extracted_items"])
+    # st.markdown(st.session_state["extracted_items"])
+    try:
+        df_extracted = parse_extracted_items_to_dataframe(st.session_state["extracted_items"])
+        # st.subheader("抽出結果（表形式）")
+        st.dataframe(df_extracted)
+    except Exception as e:
+        st.warning("抽出結果を表形式に変換できませんでした。形式を確認してください。")
+        st.exception(e)
 
 if "extracted_text" in st.session_state:
     if st.button("固定資産を判定する"):
@@ -151,7 +160,15 @@ if "extracted_text" in st.session_state:
 
 if "rag_response" in st.session_state:
     st.subheader("固定資産判定結果")
-    st.markdown(st.session_state["rag_response"])
+    # st.markdown(st.session_state["rag_response"]) 
+    # 表形式に変換して表示
+    try:
+        df = parse_llm_output_to_dataframe(st.session_state["rag_response"])
+        # st.subheader("固定資産判定結果")
+        st.dataframe(df, use_container_width=True)
+    except Exception as e:
+        st.error("表形式での変換に失敗しました。出力形式を確認してください。")
+        st.exception(e)
 
 # --- チャットボット機能 ---
 st.markdown("---")

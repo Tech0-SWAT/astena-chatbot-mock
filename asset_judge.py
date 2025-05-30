@@ -1,14 +1,19 @@
 import os
 import openai
 from dotenv import load_dotenv
+from make_df import parse_llm_output_to_dataframe
 
 from collect_law_texts import collect_law_texts_list
 from extract_lifetime_azure import extract_lifetime_info_azure
 from langchain_community.vectorstores.faiss import FAISS
 from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
+import pandas as pd
+import re
+
 
 # .env 読み込み
 load_dotenv()
+
 
 def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> str:
     """
@@ -58,7 +63,6 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
         txt_content = "（法令テキストが見つかりませんでした）"
 
     # === STEP 4: 仕訳例を読込 ===
-    import pandas as pd
     example_dir = "document/example_accounting_entry/"
     os.makedirs(example_dir, exist_ok=True)
 
@@ -159,7 +163,16 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
             max_tokens=2048
         )
         print(response)
-        return response.choices[0].message.content
+
+        response_text = response.choices[0].message.content
+        # 表形式に変換
+        df = parse_llm_output_to_dataframe(response_text)
+        # 表示
+        print("\n=== 表形式に整形 ===")
+        print(df)
+
+        return response_text
+    
     except Exception as e:
         # 詳細なエラー内容を返す
         import traceback
