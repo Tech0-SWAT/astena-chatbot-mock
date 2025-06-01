@@ -24,8 +24,7 @@ def load_account_titles(csv_path: str) -> list:
     with open(csv_path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for i, row in enumerate(reader):
-            if i == 0:
-                st.write("CSVヘッダー:", list(row.keys()))
+            # st.write("CSVヘッダー:", list(row.keys()))
             account_list.append(row)
     return account_list
 
