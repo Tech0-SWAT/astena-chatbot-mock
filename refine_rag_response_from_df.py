@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI  # ← 新しいクライアントのインポート
 from make_df import parse_llm_output_to_dataframe   
-
+import openai
 load_dotenv()
 
 def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str:
@@ -44,17 +44,26 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
         ・根拠：〇〇〇〇
         """
 
+    api_key = os.environ.get("AZURE_OPENAI_API_KEY")
+    azure_endpoint = os.environ.get("AZURE_OPENAI_ENDPOINT")
+    deployment = os.environ.get("AZURE_OPENAI_DEPLOYMENT")
+    api_version = os.environ.get("AZURE_OPENAI_API_VERSION", "2024-02-15-preview")
     # 新しいクライアントで初期化
-    client = OpenAI(api_key=os.getenv("AZURE_OPENAI_API_KEY"))
+    client = openai.AzureOpenAI(
+        api_key=api_key,
+        api_version=api_version,
+        azure_endpoint=azure_endpoint,
+    )
 
     # chat.completions.create に変更
     response = client.chat.completions.create(
-        model="gpt-4",
+        model=deployment,
         messages=[
             {"role": "system", "content": "あなたは会計処理の専門AIです。"},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.1
+        temperature=0.1,
+        max_tokens=2048
     )
     print(response)
 
