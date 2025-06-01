@@ -45,7 +45,7 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
         """
 
     # 新しいクライアントで初期化
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    client = OpenAI(api_key=os.getenv("AZURE_OPENAI_API_KEY"))
 
     # chat.completions.create に変更
     response = client.chat.completions.create(
