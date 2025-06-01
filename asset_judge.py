@@ -9,11 +9,25 @@ from langchain_community.vectorstores.faiss import FAISS
 from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings
 import pandas as pd
 import re
+import csv
 
 
 # .env 読み込み
 load_dotenv()
 
+def load_account_titles(csv_path: str) -> list:
+    """
+    勘定科目一覧CSVを読み込み、リストで返す
+    """
+    account_list = []
+    import streamlit as st
+    with open(csv_path, encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for i, row in enumerate(reader):
+            if i == 0:
+                st.write("CSVヘッダー:", list(row.keys()))
+            account_list.append(row)
+    return account_list
 
 def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> str:
     """
@@ -50,7 +64,13 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
 
     # === STEP 2: 法定耐用年数の情報抽出 ===
     law_list = collect_law_texts_list("document")
+    account_list = load_account_titles("document/勘定科目一覧.csv")
     lifetime_info = extract_lifetime_info_azure(user_chat, law_list)
+
+    # 勘定科目一覧をテキスト化
+    account_texts = "【勘定科目一覧】\n"
+    for row in account_list:
+        account_texts += f"{row['勘定科目']}: {row['解説']}\n"
 
     # === STEP 3: 減価償却に関する法令テキスト読込 ===
     txt_file = "減価償却に関する法令.txt"
@@ -108,16 +128,18 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
     prompt = f"""
         あなたは日本の会計に精通した経理アシスタントAIです。
 
-        添付の証憑に関する固定資産を取得しました。会計基準および過去の当社の会計処理実績に整合するように、各品目ごとに適切な勘定科目と金額（税抜経理ベース）を提案してください。  
+        添付の証憑に関する固定資産を取得しました。会計基準および過去の当社の会計処理実績、そして下記の勘定科目一覧に整合するように、各品目ごとに適切な勘定科目と金額（税抜経理ベース）を提案してください。  
         また、以下の点に注意してください：
 
         - 当社は税抜経理方式を採用しており、仮払消費税の計上が必要です  
         - 証憑の中には非課税・課税対象外取引が含まれている可能性があります  
         - 各固定資産の法定耐用年数も併せて提示してください  
         - 勘定科目、金額については根拠を明確に示してください  
+        - 必ず【勘定科目一覧】を参考に、最も適切な勘定科目を選んでください
         - 金額はすべて税抜金額のみを記載してください。税込金額しかない場合は税抜計算を行った上で表示させてください。税抜計算式（÷1.1など）など余計な表示しないでください
 
-        以下の情報を参考にしてください：
+        勘定科目一覧：
+        {account_texts}
 
         【情報】有形固定資産に関連する会計基準・実務資料の抜粋:
         {retrieved_context}

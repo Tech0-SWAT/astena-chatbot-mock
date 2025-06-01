@@ -101,10 +101,13 @@ else:
     st.sidebar.write("ファイルがありません。")
 
 
-
-# --- 質問用PDFアップローダ ---
-st.subheader("証憑PDFアップロード")
-uploaded_qa_file = st.file_uploader("固定資産判定を行いたい証憑のPDFをアップロードしてください", type=["pdf"], key="qa_pdf")
+# --- 質問用PDF/画像アップローダ ---
+st.subheader("証憑PDF/画像アップロード")
+uploaded_qa_file = st.file_uploader(
+    "固定資産判定を行いたい証憑のPDFまたは画像ファイルをアップロードしてください",
+    type=["pdf", "jpg", "jpeg", "png", "bmp", "tiff"],
+    key="qa_pdf"
+)
 
 # PDFアップロード時のみ解析し、セッションに保存
 if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
@@ -130,11 +133,54 @@ if uploaded_qa_file is not None and "qa_file_name" not in st.session_state:
                 )
                 result = poller.result()
 
-            # テキスト抽出
-            extracted_text = ""
-            for page in result.pages:
-                for line in page.lines:
-                    extracted_text += line.content + "\n"
+            # --- 取得データの構造を確認 ---
+            import json
+            from pprint import pformat
+
+            def safe_obj_to_dict(obj):
+                # Azure SDKのモデルは__dict__やvars()で属性を取得できる
+                try:
+                    return {k: safe_obj_to_dict(v) if hasattr(v, "__dict__") else v for k, v in vars(obj).items()}
+                except Exception:
+                    return str(obj)
+
+            # --- テーブル情報があればpandas.DataFrameで表示 ---
+            import pandas as pd
+            # --- 構造を持ったテキストとしてparagraphsとtablesを統合 ---
+            def extract_structured_text(result):
+                texts = []
+
+                # テーブル情報をMarkdown形式で抽出
+                tables = getattr(result, "tables", [])
+                for table in tables:
+                    nrows = table.row_count
+                    ncols = table.column_count
+                    cells = [["" for _ in range(ncols)] for _ in range(nrows)]
+                    for cell in table.cells:
+                        r, c = cell.row_index, cell.column_index
+                        cells[r][c] = cell.content
+                    # Markdownテーブル形式
+                    if nrows > 0 and ncols > 0:
+                        header = "| " + " | ".join(cells[0]) + " |"
+                        sep = "| " + " | ".join(["---"] * ncols) + " |"
+                        body = "\n".join(["| " + " | ".join(row) + " |" for row in cells[1:]])
+                        table_md = "\n".join([header, sep, body])
+                        texts.append(table_md)
+
+                # 段落情報を階層付きで抽出
+                paragraphs = getattr(result, "paragraphs", [])
+                for para in paragraphs:
+                    # heading_levelがあれば見出しとして出力
+                    heading_level = getattr(para, "role", None)
+                    if heading_level and hasattr(para, "content"):
+                        texts.append(f"## {para.content}")
+                    else:
+                        texts.append(para.content)
+
+                return "\n\n".join(texts)
+
+            extracted_text = extract_structured_text(result)
+
 
             # セッションに保存
             st.session_state["extracted_text"] = extracted_text
