@@ -7,6 +7,7 @@ from chat_response import generate_response
 from asset_judge import asset_judge, parse_llm_output_to_dataframe
 from asset_extract_items import asset_extract_items
 from make_df import parse_extracted_items_to_dataframe, parse_llm_output_to_dataframe
+from refine_rag_response_from_df import refine_rag_response_from_df 
 import pandas as pd
 
 
@@ -74,6 +75,15 @@ if uploaded_example_accounting_entry is not None:
         f.write(uploaded_example_accounting_entry.read())
     st.sidebar.success(f"{uploaded_example_accounting_entry.name} を example_accounting_entry に保存しました。")
 
+# --- 対になる証憑アップローダ ---
+st.sidebar.subheader("関連証憑データアップロード")
+uploaded_example_accounting_entry = st.sidebar.file_uploader("対になる証憑をこちらにアップロード", type=["pdf","xlsx", "xls"], key="accounting_entry2")
+if uploaded_example_accounting_entry is not None:
+    save_path = os.path.join(doc_uploaded_example_accounting_entry_dir, uploaded_example_accounting_entry.name)
+    with open(save_path, "wb") as f:
+        f.write(uploaded_example_accounting_entry.read())
+    st.sidebar.success(f"{uploaded_example_accounting_entry.name} を example_accounting_entry に保存しました。")
+
 st.sidebar.subheader("example_accounting_entry内のファイル一覧")
 docs_uploaded_example_accounting_entry_files = os.listdir(doc_uploaded_example_accounting_entry_dir)
 
@@ -89,6 +99,8 @@ if docs_uploaded_example_accounting_entry_files:
                 st.experimental_rerun()  # 削除後にリロードして表示更新
 else:
     st.sidebar.write("ファイルがありません。")
+
+
 
 # --- 質問用PDFアップローダ ---
 st.subheader("証憑PDFアップロード")
@@ -188,6 +200,43 @@ if "rag_response" in st.session_state:
     except Exception as e:
         st.error("表形式での変換に失敗しました。出力形式を確認してください。")
         st.exception(e)
+
+
+# --- 台帳書き込み用出力 ---
+if "rag_response" in st.session_state:
+    if st.button("固定資産台帳への書き込み用データを作成する"):
+        # 優先順：編集済みデータがあればそれを使う。なければ元のrag_responseから作成
+        with st.spinner("固定資産台帳への書き込み用データを作成しています．．．"):
+            if "edited_df" in st.session_state:
+                df = st.session_state["edited_df"]
+                st.info("編集済みのデータを使用します")
+            elif "rag_response" in st.session_state:
+                try:
+                    df = parse_llm_output_to_dataframe(st.session_state["rag_response"])
+                    st.info("元のRAG出力を使用します（編集なし）")
+                except Exception as e:
+                    st.error("rag_response の整形に失敗しました")
+                    st.exception(e)
+                    df = None
+            else:
+                st.warning("編集済みデータも元のデータも見つかりません。")
+                df = None
+
+            if df is not None:
+                final_response = refine_rag_response_from_df(df)
+                st.session_state["final_rag_response"] = final_response
+
+                st.markdown("### 固定資産台帳用の最終出力結果")
+
+                try:
+                    # 表形式で表示＆編集可能
+                    df = parse_llm_output_to_dataframe(st.session_state["final_rag_response"])
+                    edited_final_df = st.data_editor(df, use_container_width=True, num_rows="dynamic")
+                    st.session_state["edited_final_df"] = edited_final_df
+                except Exception as e:
+                    st.error("最終出力の表形式変換に失敗しました。形式を確認してください。")
+                    st.exception(e)
+                    st.text_area("テキスト表示（参考）", final_response, height=400)
 
 # --- チャットボット機能 ---
 st.markdown("---")
