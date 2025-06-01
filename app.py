@@ -243,6 +243,43 @@ if "rag_response" in st.session_state:
         if st.button("修正内容を保存"):
             st.session_state["edited_df"] = edited_df
             st.success("修正内容を保存しました")
+
+            # --- 差分検出＆ChangeTitleテーブルへ挿入 ---
+            from db_control.crud import myinsert
+            from db_control.mymodels import ChangeTitle
+            from datetime import datetime
+
+            def safe_to_float(value):
+                try:
+                    return float(str(value).replace(",", "").replace("円", "").strip())
+                except:
+                    return 0.0
+
+            original_df = parse_llm_output_to_dataframe(st.session_state["rag_response"])
+            edited_df = st.session_state["edited_df"]
+
+            # 比較と差分検出
+            for idx in range(len(original_df)):
+                original_row = original_df.iloc[idx]
+                edited_row = edited_df.iloc[idx]
+
+                if not original_row.equals(edited_row):
+                    change_log = {
+                        "OperationTimestamp": datetime.now().isoformat(),
+                        "TargetRecordID": str(idx),
+                        "Old_ItemName": str(original_row.get("品目", "")),
+                        "New_ItemName": str(edited_row.get("品目", "")),
+                        "Old_Amount": safe_to_float(original_row.get("金額", 0)),
+                        "New_Amount": safe_to_float(edited_row.get("金額", 0)),
+                        "Old_AccountTitle": str(original_row.get("勘定科目", "")),
+                        "New_AccountTitle": str(edited_row.get("勘定科目", "")),
+                        "Old_LegalUsefulLife": str(original_row.get("法定耐用年数", "")),
+                        "New_LegalUsefulLife": str(edited_row.get("法定耐用年数", "")),
+                        "Old_Basis": str(original_row.get("根拠", "")),
+                        "New_Basis": str(edited_row.get("根拠", "")),
+                        "Remarks": "Streamlit経由で修正"
+                    }
+                    myinsert(ChangeTitle, change_log)
     except Exception as e:
         st.error("表形式での変換に失敗しました。出力形式を確認してください。")
         st.exception(e)
