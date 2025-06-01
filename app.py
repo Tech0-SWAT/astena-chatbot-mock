@@ -276,8 +276,8 @@ if "rag_response" in st.session_state:
 
                 try:
                     # 表形式で表示＆編集可能
-                    df = parse_llm_output_to_dataframe(st.session_state["final_rag_response"])
-                    edited_final_df = st.data_editor(df, use_container_width=True, num_rows="dynamic")
+                    df_final = parse_llm_output_to_dataframe(st.session_state["final_rag_response"])
+                    edited_final_df = st.data_editor(df_final, use_container_width=True, num_rows="dynamic")
                     st.session_state["edited_final_df"] = edited_final_df
                 except Exception as e:
                     st.error("最終出力の表形式変換に失敗しました。形式を確認してください。")

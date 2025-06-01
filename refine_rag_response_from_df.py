@@ -68,10 +68,10 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
     print(response)
 
     response_text = response.choices[0].message.content
-    # # 表形式に変換
-    # df = parse_llm_output_to_dataframe(response_text)
-    # # 表示
-    # print("\n=== 表形式に整形（台帳登録用）===")
-    # print(df)
+    # 表形式に変換
+    df = parse_llm_output_to_dataframe(response_text)
+    # 表示
+    print("\n=== 表形式に整形（台帳登録用）===")
+    print(df)
 
     return response_text
