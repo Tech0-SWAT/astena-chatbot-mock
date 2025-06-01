@@ -136,6 +136,7 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
         - 各固定資産の法定耐用年数も併せて提示してください  
         - 勘定科目、金額については根拠を明確に示してください  
         - 必ず【勘定科目一覧】を参考に、最も適切な勘定科目を選んでください
+        - 金額はすべて税抜金額のみを記載してください。税込金額しかない場合は税抜計算を行った上で表示させてください。税抜計算式（÷1.1など）など余計な表示しないでください
 
         勘定科目一覧：
         {account_texts}
@@ -188,10 +189,10 @@ def asset_judge(user_chat: str, old_chat: str = "", document_text :str = "") -> 
 
         response_text = response.choices[0].message.content
         # 表形式に変換
-        df = parse_llm_output_to_dataframe(response_text)
-        # 表示
-        print("\n=== 表形式に整形 ===")
-        print(df)
+        # df = parse_llm_output_to_dataframe(response_text)
+        # # 表示
+        # print("\n=== 表形式に整形（asset_judge用） ===")
+        # print(df)
 
         return response_text
     
