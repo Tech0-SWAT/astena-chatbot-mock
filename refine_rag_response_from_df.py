@@ -65,9 +65,12 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
         temperature=0.1,
         max_tokens=2048
     )
+    print("responseの内容を出力")
     print(response)
-
+    
     response_text = response.choices[0].message.content
+    print("response_textの内容を出力")
+    print(response_text)
     # 表形式に変換
     df = parse_llm_output_to_dataframe(response_text)
     # 表示
