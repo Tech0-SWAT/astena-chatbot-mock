@@ -47,13 +47,13 @@ if docs_files:
         with col2:
             if st.button("削除", key=f"delete_index_{f}"):
                 os.remove(file_path)
-                st.experimental_rerun()
+                st.rerun()
 else:
     st.sidebar.write("ファイルがありません。")
 
 # --- インデックス再作成用PDFアップローダ（サイドバーへ移動） ---
 st.sidebar.subheader("インデックス再作成用PDFアップロード")
-uploaded_index_file = st.sidebar.file_uploader("インデックス用PDFをアップロード（docs_for_indexに保存）", type=["pdf"], key="index_pdf")
+uploaded_index_file = st.sidebar.file_uploader("インデックス用PDFをアップロード（docs_for_indexに保存）", type=["pdf","xlsx", "xls"], key="index_pdf")
 if uploaded_index_file is not None:
     save_path = os.path.join(docs_dir, uploaded_index_file.name)
     with open(save_path, "wb") as f:
