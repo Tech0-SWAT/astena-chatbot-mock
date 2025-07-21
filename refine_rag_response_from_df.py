@@ -1,13 +1,20 @@
 import pandas as pd
 import os
 from dotenv import load_dotenv
-from openai import OpenAI  # ← 新しいクライアントのインポート
-from make_df import parse_llm_output_to_dataframe   
 import openai
+import re
+
 load_dotenv()
 
+def parse_llm_output_to_dataframe(text: str) -> pd.DataFrame:
+    pattern = r"品目名[:：]\s*(.*?)\n・金額[:：]\s*(.*?)\n・勘定科目[:：]\s*(.*?)\n・法定耐用年数[:：]\s*(.*?)\n・根拠[:：]\s*(.*?)(?=\n品目名[:：]|\Z)"
+    matches = re.findall(pattern, text, re.DOTALL)
+    if not matches:
+        print("⚠️ 正規表現に一致する構造が見つかりませんでした。")
+        return pd.DataFrame()
+    return pd.DataFrame(matches, columns=["品目名", "金額", "勘定科目", "法定耐用年数", "根拠"])
+
 def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str:
-    # DataFrame を整形済み文字列に変換
     items_text = ""
     for _, row in df.iterrows():
         items_text += f"""品目名: {row["品目名"]}
@@ -36,28 +43,23 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
 
         【出力形式】
         以下の形式で出力してください：
+        出力は複数行の構造化データとして返してください。以下の形式を1件ずつ繰り返す形にしてください：
 
-        品目名: （例: ノートPC）  
+        品目名: ノートPC  
         ・金額：150,000円  
         ・勘定科目：備品  
         ・法定耐用年数：4年  
-        ・根拠：〇〇〇〇
-        """
+        ・根拠：技術者用に使用するため備品として計上
+    """
 
-    api_key = os.environ.get("AZURE_OPENAI_API_KEY")
-    azure_endpoint = os.environ.get("AZURE_OPENAI_ENDPOINT")
-    deployment = os.environ.get("AZURE_OPENAI_DEPLOYMENT")
-    api_version = os.environ.get("AZURE_OPENAI_API_VERSION", "2024-02-15-preview")
-    # 新しいクライアントで初期化
     client = openai.AzureOpenAI(
-        api_key=api_key,
-        api_version=api_version,
-        azure_endpoint=azure_endpoint,
+        api_key=os.environ.get("AZURE_OPENAI_API_KEY"),
+        api_version=os.environ.get("AZURE_OPENAI_API_VERSION", "2024-02-15-preview"),
+        azure_endpoint=os.environ.get("AZURE_OPENAI_ENDPOINT"),
     )
 
-    # chat.completions.create に変更
     response = client.chat.completions.create(
-        model=deployment,
+        model=os.environ.get("AZURE_OPENAI_DEPLOYMENT"),
         messages=[
             {"role": "system", "content": "あなたは会計処理の専門AIです。"},
             {"role": "user", "content": prompt}
@@ -65,15 +67,12 @@ def refine_rag_response_from_df(df: pd.DataFrame, history_text: str = "") -> str
         temperature=0.1,
         max_tokens=2048
     )
-    print("responseの内容を出力")
-    print(response)
-    
+
     response_text = response.choices[0].message.content
-    print("response_textの内容を出力")
+    print("\n=== LLM最終出力 ===")
     print(response_text)
-    # 表形式に変換
+
     df = parse_llm_output_to_dataframe(response_text)
-    # 表示
     print("\n=== 表形式に整形（台帳登録用）===")
     print(df)
 

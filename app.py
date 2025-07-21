@@ -4,7 +4,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 from dotenv import load_dotenv
 from chat_response import generate_response
-from asset_judge import asset_judge, parse_llm_output_to_dataframe
+from asset_judge import asset_judge
 from asset_extract_items import asset_extract_items
 from make_df import parse_extracted_items_to_dataframe, parse_llm_output_to_dataframe
 from refine_rag_response_from_df import refine_rag_response_from_df 
@@ -322,6 +322,8 @@ if page == "メイン":
                     try:
                         # 表形式で表示＆編集可能
                         df_final = parse_llm_output_to_dataframe(st.session_state["final_rag_response"])
+                        # st.write("🔍 デバッグ: 最終出力DataFrameのshape", df_final.shape)
+                        # st.dataframe(df_final)  # 表形式での事前確認
                         edited_final_df = st.data_editor(df_final, use_container_width=True, num_rows="dynamic")
                         st.session_state["edited_final_df"] = edited_final_df
                     except Exception as e:

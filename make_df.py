@@ -9,15 +9,29 @@ load_dotenv()
 
 # LLM出力をDataFrameに変換する関数（外に定義）
 def parse_llm_output_to_dataframe(text: str) -> pd.DataFrame:
+    """
+    LLM出力テキストをDataFrameに変換する関数
+    
+    対応する形式:
+    品目名: [品目名]
+    ・金額：[金額]
+    ・勘定科目：[勘定科目] 
+    ・法定耐用年数：[年数]
+    ・根拠：[根拠]
+    """
+    # より柔軟な正規表現パターン
+    # ・・（全角・半角どちらも対応）、：:（全角・半角どちらも対応）
     pattern = re.compile(
         r"品目名[:：]\s*(.*?)\s*"
-        r"・金額[:：]\s*([^\n]*)\s*"
-        r"・勘定科目[:：]\s*([^\n]*)\s*"
-        r"・法定耐用年数[:：]\s*([^\n]*)\s*"
-        r"・根拠[:：]\s*(.*?)\n(?=\s*品目名|$)",  # 次の品目名または終端まで
-        re.DOTALL
+        r"[・・]\s*金額[:：]\s*(.*?)\s*"
+        r"[・・]\s*勘定科目[:：]\s*(.*?)\s*"
+        r"[・・]\s*法定耐用年数[:：]\s*(.*?)\s*"
+        r"[・・]\s*根拠[:：]\s*(.*?)(?=\n\s*品目名[:：]|$)",
+        re.DOTALL | re.MULTILINE
     )
+    
     rows = []
+    
     for match in pattern.finditer(text):
         rows.append({
             "品目名": match.group(1).strip(),
@@ -26,6 +40,7 @@ def parse_llm_output_to_dataframe(text: str) -> pd.DataFrame:
             "法定耐用年数": match.group(4).strip(),
             "根拠": match.group(5).strip(),
         })
+    
     return pd.DataFrame(rows)
 
 def parse_extracted_items_to_dataframe(text: str) -> pd.DataFrame:
