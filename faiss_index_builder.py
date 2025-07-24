@@ -1,13 +1,16 @@
 import os
 # from dotenv import load_dotenv
-from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
+from langchain_community.document_loaders import UnstructuredFileLoader
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 # from langchain_community.embeddings.azure_openai import AzureOpenAIEmbeddings # 廃止予定
 from langchain_openai import AzureOpenAIEmbeddings  # ← import 元を変更
 from langchain_community.vectorstores.faiss import FAISS
+from langchain.docstore.document import Document
 import streamlit as st
+import pandas as pd
+from ocr_utils import create_document_from_pdf_ocr
 
 def build_faiss_index(
     # filename: str = "ey-japan-info-sensor-2023-06-03.pdf",
@@ -42,9 +45,50 @@ def build_faiss_index(
     os.makedirs(index_path, exist_ok=True)
 
     # 1. ドキュメント読み込み
-    loader = DirectoryLoader(data_path, loader_cls=UnstructuredFileLoader)
-    documents = loader.load()
-    print(f"ドキュメント数: {len(documents)}")
+    documents = []
+    
+    # 各ファイルを個別に処理
+    for file in os.listdir(data_path):
+        file_path = os.path.join(data_path, file)
+        
+        if file.endswith(".pdf"):
+            # PDFファイルはOCRを使用して構造化テキストを抽出
+            try:
+                doc = create_document_from_pdf_ocr(file_path)
+                documents.append(doc)
+                print(f"PDF OCR読み込み成功: {file}")
+            except Exception as e:
+                print(f"PDF OCR読み込み失敗 (フォールバックで処理): {file} - {e}")
+                # フォールバックとして従来の方法を使用
+                try:
+                    loader = PyPDFLoader(file_path)
+                    fallback_docs = loader.load()
+                    documents.extend(fallback_docs)
+                    print(f"PDF フォールバック読み込み成功: {file}")
+                except Exception as e2:
+                    print(f"PDF フォールバック読み込みも失敗: {file} - {e2}")
+        
+        elif file.endswith(".xlsx") or file.endswith(".xls"):
+            # Excelファイル読み込み
+            try:
+                df = pd.read_excel(file_path)
+                text = df.to_csv(index=False)  # DataFrame → CSV形式テキスト
+                documents.append(Document(page_content=text, metadata={"source": file_path}))
+                print(f"Excel読み込み成功: {file}")
+            except Exception as e:
+                print(f"Excel読み込み失敗: {file} - {e}")
+        
+        else:
+            # その他のファイルは従来通り UnstructuredFileLoader を使用
+            try:
+                loader = UnstructuredFileLoader(file_path)
+                file_docs = loader.load()
+                documents.extend(file_docs)
+                print(f"その他ファイル読み込み成功: {file}")
+            except Exception as e:
+                print(f"その他ファイル読み込み失敗: {file} - {e}")
+    
+    print(f"総ドキュメント数: {len(documents)}")
 
     # 2. テキスト分割
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
